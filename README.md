@@ -1,6 +1,6 @@
 # 👩🏻‍💻 Stokesia
 
-**`Desenvolvedora FullStack`**
+**`Desenvolvedor FullStack`**
 
 Me chamo Lucas, tenho 19 anos e sou natural do Rio Grande do Sul. Concluí o ensino médio no Marista Champagnat, com o curso técnico em informática. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na PUCRS.
 
