@@ -1,4 +1,4 @@
-# 👩🏻‍💻 Stokesia
+# 👩🏻‍💻 Wanted
 
 **`Desenvolvedor FullStack`**
 
