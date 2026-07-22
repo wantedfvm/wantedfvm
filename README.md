@@ -30,9 +30,7 @@
 
 <p><b>Fullstack & Scripting Developer</b></p>
 
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/PwMQrYpyPS)
 [![Instagram](https://img.shields.io/badge/Instagram-eu.lucasmachado-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/eu.lucasmachado)
-[![Live Terminal](https://img.shields.io/badge/?_Live_Terminal-wantedfvm.github.io-22d3ee?style=for-the-badge&logo=gnometerminal&logoColor=black)](https://wantedfvm.github.io)
 
 <br>
 
