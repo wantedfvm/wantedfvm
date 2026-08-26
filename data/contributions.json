@@ -1,22 +1,22 @@
 {
   "username": "wantedfvm",
-  "generated_at": "2026-08-25T07:09:26Z",
+  "generated_at": "2026-08-26T07:09:58Z",
   "range": {
     "start": "2025-08-24",
+    "end": "2026-08-26"
+  },
+  "total_contributions": 1063,
+  "active_days": 111,
+  "avg_per_active_day": 9.6,
+  "current_streak": {
+    "length": 42,
+    "start": "2026-07-15",
     "end": "2026-08-25"
   },
-  "total_contributions": 1062,
-  "active_days": 110,
-  "avg_per_active_day": 9.7,
-  "current_streak": {
-    "length": 41,
-    "start": "2026-07-15",
-    "end": "2026-08-24"
-  },
   "longest_streak": {
-    "length": 41,
+    "length": 42,
     "start": "2026-07-15",
-    "end": "2026-08-24"
+    "end": "2026-08-25"
   },
   "best_day": {
     "date": "2026-04-19",
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-08",
-      "total": 157
+      "total": 158
     }
   ],
   "days": [
@@ -1543,6 +1543,10 @@
     },
     {
       "date": "2026-08-25",
+      "count": 1
+    },
+    {
+      "date": "2026-08-26",
       "count": 0
     }
   ]
