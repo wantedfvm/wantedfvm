@@ -17,14 +17,14 @@ import sys
 import cv2
 import numpy as np
 from PIL import Image
-from rembg import remove
+from rembg import new_session, remove
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 INP = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-photo.jpg")
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "source-prepped.png")
 
 # 1. cut out the subject
-cut = remove(Image.open(INP).convert("RGBA"))
+cut = remove(Image.open(INP).convert("RGBA"), session=new_session("u2net"))  # u2net: modelo leve (o padrão novo do rembg baixa 1 GB)
 rgb = np.array(cut.convert("RGB"))
 alpha = np.array(cut.split()[-1])                 # 0 = background
 
@@ -34,7 +34,7 @@ clahe = cv2.createCLAHE(clipLimit=2.6, tileGridSize=(8, 8))
 gray = clahe.apply(gray)
 
 # a touch of global lift so the face sits in the sparse end of the ramp
-gray = cv2.convertScaleAbs(gray, alpha=1.05, beta=18)
+gray = cv2.convertScaleAbs(gray, alpha=1.05, beta=0)
 
 # 3. paste onto white using the alpha mask (feathered a hair to avoid a halo)
 mask = (alpha.astype(np.float32) / 255.0)
